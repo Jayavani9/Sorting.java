@@ -7,6 +7,7 @@ Sample Output
 
 class Program {
 public static intO insertionSort(intO array) {
+  // Tc: O(n^2)
 int len  = array. length;
 for(int i = 1; i < len; i++)
 {
