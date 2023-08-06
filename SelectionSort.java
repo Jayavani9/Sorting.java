@@ -8,6 +8,7 @@ Sample Output
 
 class Program {
 public static int[] selectionSort(int[] array) {
+  //Tc: O(n^2)
 for (int i = 0 ; i < array. length-1; i++)
 {
 int ind = i;
