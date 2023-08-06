@@ -11,8 +11,8 @@ public static int[] insertionSort(int[] array) {
 int len  = array. length;
 for(int i = 1; i < len; i++)
 {
-int key = array[I];
-int j- i - 1;
+int key = array[i];
+int j= i - 1;
 while(j >= 0 && array[j] > key)
 {
 array[j+1] =array[j];
