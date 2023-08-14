@@ -7,7 +7,7 @@ Sample Output
 
 class Program {
 public static int[] insertionSort(int[] array) {
-  // Tc: O(n^2)
+  // Time Complexity: O(n^2)
 int len  = array. length;
 for(int i = 1; i < len; i++)
 {
